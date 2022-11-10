@@ -1,9 +1,10 @@
 import React from 'react';
+import {Button} from "@mui/material";
 
 export const ConfigurationsForm = () => {
   return (
     <>
-      <input type="text"/>
+      <Button variant="text">Text</Button>
     </>
   )
 }
