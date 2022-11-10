@@ -7,10 +7,10 @@ class Configuration {
   value: string | undefined;
   configType: IConfigurationType;
 
-  constructor(configType: IConfigurationType, name: string) {
+  constructor(configType: IConfigurationType, name: string, value: string | undefined = undefined) {
     this.name = name;
     this.configType = configType;
-    this.value = undefined;
+    this.value = value;
   }
 
   setValue(value: string) {
